@@ -29,7 +29,7 @@ namespace Tyuiu.IlyinME.Sprint0.Task4.V0.Test
         [TestMethod]
         public void CheckedDivisionValid()
         {
-            Assert.AreEqual(5, DataService.Division(10, 2));
+            Assert.AreEqual(8, DataService.Division(16, 2));
         }
     }
 }
