@@ -1,9 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-using Tyuiu.IlyinME.Sprint0.Task4.V0.Lib;
+using Tyuiu.IlyinME.Sprint0.Task5.V0.Lib;
 
-namespace Tyuiu.IlyinME.Sprint0.Task4.V0.Test
+namespace Tyuiu.IlyinME.Sprint0.Task5.V0.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -29,7 +29,7 @@ namespace Tyuiu.IlyinME.Sprint0.Task4.V0.Test
         [TestMethod]
         public void CheckedDivisionValid()
         {
-            Assert.AreEqual(5, DataService.Division(10, 2));
+            Assert.AreEqual(3, DataService.Division(9, 3));
         }
     }
 }
